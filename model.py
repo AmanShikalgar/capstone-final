@@ -17,7 +17,7 @@ df = pd.read_csv('Restaurant_Reviews.tsv', delimiter='\t')
 corpus = []
 
 # Looping till 1000 because the number of rows are 1000
-for i in range(0, 1003):
+for i in range(0, 8620):
     # Removing the special character from the reviews and replacing it with space character
     review = re.sub(pattern='[^a-zA-Z]', repl=' ', string=df['Review'][i])
 
