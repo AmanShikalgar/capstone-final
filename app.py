@@ -11,9 +11,9 @@ cv = joblib.load(open('cv.pkl', 'rb'))
  
 myDb = mysql.connector.connect(
      host='sql12.freesqldatabase.com',
-     user='sql12664948',
-     password='H6KBkBnpMB',
-     database='sql12664948'
+     user='sql12673264',
+     password='GjB2npAZ5b',
+     database='sql12673264'
 
     #host='https://auth-db536.hstgr.io/',
     #user='u622668951_fortcoffee',
